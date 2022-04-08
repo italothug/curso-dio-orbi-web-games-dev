@@ -1,0 +1,20 @@
+Qual foi o primeiro domínio criado?
+R:Na última sexta-feira (15/03/2013), o primeiro nome de domínio registrado na história da internet completou 28 anos. O Symbolics.com continua no ar até hoje e ostenta o título de domínio mais velho da web.
+E o primeiro blog?
+R:Coincidência ou não, o primeiro blog da internet foi criado por um brasileiro. Em 1994, o cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary”
+Qual foi a primeira compra feita pela internet?
+R:m CD de Sting (Ten Summoner's Tales). A transação ocorreu a 11 de agosto de 1994 e foi feita através de uma tecnologia que permitiu encriptar os dados do cartão de crédito.
+Qual o site mais antigo em atividade?
+R:Em 1º de janeiro de 1985, a NORDUnet, uma espécie de agência internacional que conecta as redes nacionais de pesquisa e de educação dos países nórdicos, criou o nordu.net.
+
+Divisão de Frontend, Backend:
+https://prnt.sc/iUA88kuTAdfo
+
+Algumas linguagens e onde atuam:
+https://prnt.sc/W7OEE_R7Jm9k
+
+Frameworks mais populares no Frontend:
+https://prnt.sc/B4V_bhTJymPE
+
+Principais linguagens:
+HTML, CSS, JavaScript(jQuery, AJAX, diversas libs), PHP, .NET, ASP, Java, Ruby(on Rails), Python, Perl, C/C++/C#

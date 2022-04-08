@@ -1,0 +1,63 @@
+-- HTML -- -- HTML -- -- HTML -- -- HTML -- 
+Elemento HTML
+https://prnt.sc/jPMuIinDFL0v
+Estrutura básica
+https://prnt.sc/LTpkCrfieJXI
+
+<section>	Seção genérica para arquivos
+<header>	Cabeçalho da página 
+<article>	Conteúdo relevante na página
+<aside>	Conteúdo relacionado ao conteúdo principal da página (Barra lateral)
+<footer>	Rodapé da página
+h1 - h6	Títulos
+
+h1	Título da página
+h2	Título da seção
+h3	Título de artigo
+p	Conteúdo do artigo
+
+a	Para colocar links em uma palavra
+<a href="mailto:email"> O mailto serve pra colocar um email
+<a href="tell:telefone"> O tell serve pra colocar um número de telefone
+<a target="_blank"> Target serve pra dizer como o link vai ser aberto e o _blank diz que é pra ser aberto em outra página
+
+img	Serve pra colocar imagem na página
+src	Link da imagem
+alt	Descrever a imagem
+
+https://tinypng.com/
+Link para diminuir e retirar informações desnecessárias da imagem
+
+Exemplos de ul, ol, li
+https://prnt.sc/YlHbdCXX1AWs
+ul	ordem não é importante
+ol	itens em ordem
+li	item dessa lista
+
+-- CSS3 -- -- CSS3 -- -- CSS3 -- -- CSS3 -- 
+Exemplo de seletores:
+https://prnt.sc/2TK27-TxFHRo
+
+ID é diferente de Class
+https://prnt.sc/UtxOx5lidm9q
+id 		só pode ser usado uma vez no html e é representado por "#"
+class		pode usar mais de uma vez e é representado por "."
+
+Boxmodel
+https://prnt.sc/1DglqqZRiDL_
+
+Estilizando borda
+https://prnt.sc/OxR052gVFdSW
+
+Border-radius
+https://prnt.sc/0DeKST3UZTZQ
+
+font-family	Altera a fonte do texto
+font-size		Altera o tamanho
+font-style		Altera a aparência
+font-weight	Altera o peso (largura)
+text-transform	Altera pra minúsculo e maiúsculo, com "capitalize", ele altera toda inicial pra maiúsculo 
+text-decoration	Serve pra dar destaque
+
+list-style-type
+https://prnt.sc/ajl2LcPWhnjX
