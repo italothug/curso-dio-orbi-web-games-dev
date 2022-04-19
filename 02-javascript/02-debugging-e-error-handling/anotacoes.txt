@@ -1,0 +1,34 @@
+ECMASript Error
+Erros que ocorrem em tempo de execução
+Composto por:
+- Mensagem
+- Nome
+- Linha
+- Call Stack
+
+*Esse erro acontece por conta de que alguma variável não foi declarada ou esqueceu alguma coisa, como ponto e virgula
+
+DOMException
+DOM = Document Object Model
+Erros relacionados á paginas da web
+
+Try = Olha se o código tem algum erro 
+Catch = "Captura" o erro do código
+
+function tryCatchExemplo(string) {
+	try {
+		verificaPalindromo(string)
+	}
+	catch(e) {
+		console.log(e) //pode trocar o console.log por "throw e"
+	}
+}
+
+Error aceita os seguintes parâmetros:
+message, fileName, lineNumber
+
+Não é padrão (fileName e lineNumber)
+Padrão: Message
+
+Se colocar o .name depois do Error, você pode renomea-lo igual no exemplo a baixo
+https://prnt.sc/Lc-4T1cjdkJa

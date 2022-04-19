@@ -1,0 +1,58 @@
+Definição Assíncrono:
+Que não ocorre ou não se efetiva ao mesmo tempo
+Pode fazer 2 coisas ao mesmo tempo
+
+O JS roda de maneira síncrona
+
+Promises //é como se fosse uma promessa
+Objeto de processamento Assíncrono
+Inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada
+
+Uma promise pode ter 3 estados
+1- Pending / Pendente
+2- Fulfilled / Completada/Finalizada
+3- Rejected / Rejeitada 
+
+Estrutura da Promises
+https://prnt.sc/gJKW4X751HF3
+
+const myPromise = new Promise((resolve, reject)) => { 
+    window.setTimeout(() => {
+        resolve(console.log('Resolvida'));
+    }, 2000);
+}
+
+await myPromise
+    .then((result) => result + ' passando pelo then')
+    .then((result) => result + ' e agora acabou!')
+    .catch((err) => console.log(err.message));
+
+Async/await
+Funções assíncronas precisam dessas duas palavras chave.
+
+É preciso usar " async function nome() " para iniciar uma função assíncrona 
+
+É necessario usar await após acabar a promise 
+
+O que são APIs
+Application Programming Interface
+- Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end
+
+Você consegue acessá-la por meio de URLs
+
+JSON: JavaScript Object Notation 
+- É muito comum que APIs retornem seus dados no formato .json, portanto precisamos tratar esses dados quando os recebermos
+
+fetch
+Consumindo APIs
+
+fetch(url, options)
+    .then(response => response.json())
+    .then(json => console.log(json))
+// retorna uma Promise
+Utiliza sempre uma await antes do fetch
+Operações no banco (POST,GET,PUT,DELETE,etc)
+https://prnt.sc/QCMn-b5gukoQ
+
+//POST: Quando vc manda dados para ser gravado no banco de dados
+

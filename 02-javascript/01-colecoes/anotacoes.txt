@@ -1,0 +1,35 @@
+Estrutura MAP
+https://prnt.sc/5cwHh9cGgBPZ
+
+Métodos : Adicionar, ler e deletar
+myMap.set('apple, 'fruit');
+//Map(1) ("apple" => "fruit") Chave é apple e o valor é fruit
+MyMap.get(apple);
+//"fruit"
+myMap.delete("apple")
+//true
+myMap.get("apple")
+//underfined (Depois de deletar)
+
+Map vs Objeto
+https://prnt.sc/lt17wJSOhg1-
+
+Estrutura Set
+https://prnt.sc/1xYRRkxuIboy
+
+Métodos: Adicionar, consultar e deletar
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+//true
+
+mySet.has(3);
+//false
+
+meuSet.delete(5);
+
+Set vs Array
+https://prnt.sc/cCSaUMUngzmm

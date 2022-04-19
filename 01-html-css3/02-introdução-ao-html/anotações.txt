@@ -61,3 +61,6 @@ text-decoration	Serve pra dar destaque
 
 list-style-type
 https://prnt.sc/ajl2LcPWhnjX
+
+margin	espaçamento externo
+padding	espaçamento interno
