@@ -1,0 +1,53 @@
+##Mapping Function
+* Cria um novo array
+* Não modifica o array original
+* Realiza operações em ordem
+
+Dentro do código
+array.map(callback, thisArg)
+callback(item, index, array)
+
+Callback: função a ser executada em cada elemento (Uma função que vai ser executada em cada elemento)
+thisArg(opcional): Valor de 'this' dentro da função de call-back (Apenas se quiser fazer uma operação que vai variar de acordo com o objeto, quiser fazer uma operação dentro do objeto)
+
+##Map vs forEach
+//Usando map
+
+const array = [1, 2, 3, 4, 5];
+array.map((item) => item * 2); 
+//retorno: [2, 4, 6, 8, 10];
+
+//Usando forEach
+
+const array = [1, 2, 3, 4, 5];
+array.forEach((item) => item * 2);
+//retorno: undefined
+
+Diferenças:
+* Valor de retorno
+* Considere se o array auxiliar será necessário
+
+##Filter
+* Cria um novo array
+* Não modifica array original, cria um novo array apenas com os itens que passaram pelo o seu filtro
+
+Dentro do código:
+array.filter(call-back, thisArg)
+
+Exemplo:
+https://prnt.sc/nS03tFOYcTmy
+
+.includes = faz com que tire tudo que o parâmetro quer comparado ao array de cima, e isso faz com que crie um novo array apenas com esses itens
+
+##Reduce
+* Ele não retorna outro array, ele retorna um valor único
+* Executa uma função em todos os elementos do array, retornando um valor único (Pode ser uma string, um número ..)
+
+### Sintaxe
+array.reduce(callbackFn, initialValue)
+* Callback: Função a ser executada a partir do acumulador
+* InitialValue: valor sobre o qual retorno final irá atuar
+Exemplo:
+https://prnt.sc/53LKyjQgtuYG
+Accumulator/prevValue: Acumulador de todas as chamadas de callbackFn
+currentValue: O elemento atual sendo acessado pela função
