@@ -1,0 +1,86 @@
+## DOM = Document Object Model
+* O DOM  HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+https://prnt.sc/8KzQTNkl81oc
+
+### DOM vs BOM = Browser Object Model
+* Tudo que está dentro do objeto window(janela do navegador)
+https://prnt.sc/w4yZW7CJMOel
+
+* Procurar elemento por ID
+document.getElementById('');
+
+* Procurar elemento por tag HTML
+document.getElementByTagName('');
+
+* Procurar elemento por classe
+document.getElementByClassName('');
+
+* Exemplo:
+https://prnt.sc/KKJiYpGuFCcS
+
+### No querySelectorAll pode pegar mais de uma classe
+
+* document.querySelectorAll('');
+
+* Exemplo:
+https://prnt.sc/0z-WqndU9ZnT
+
+## Método de adicionar e deletar
+* Cria um novo elemento HTML
+document.createElement(element)
+"DIV, P, IMG"
+
+* Remove um elemento
+document.removeChild(element)
+"Entra no elemento Pai para apagar o elemento Filho, como uma tag"
+
+* Adiciona um elemento
+document.appendChild(element)
+
+* Substitui um elemento
+document.replaceChild(new, old)
+
+## Classes
+Element.classList
+
+Exemplo:
+Antes
+https://prnt.sc/MekDa8M7XE5b
+Depois
+https://prnt.sc/39PTTxQ32mWc
+
+## CSS
+* Acessando diretamente o CSS de um elemento
+document.getElementsByTagName("").style.color = "blue";
+
+## Eventos
+* É qualquer tipo de ação que o usuário faz com a página da WEB
+
+## Tipo
+* Evento dos mouse
+mouseover, mouseout
+- mouseover: quando você colocar o mouse em cima do elemento
+- mouseout: é quando vc tira
+
+* Eventos de clique
+click, dbclick
+- click: é um evento de quando você clica no elemento
+- dbclick: é um evento de quando dá clicks duplos no elemento
+
+* Eventos de atualização
+Change, load
+São atualização de página, quando uma página carrega toda e entre outras
+
+## Acionando eventos
+// JS
+* Event listener //Escutador de eventos
+Diretamente no JS, cria um evento que vai ser acionado no momento em que usuário realizar determinada ação.
+
+const botão = document.getElementById("meuBotao")
+botao.addEventListener("click", outraFuncao) // Tipo do evento, o que fazer depois do evento ser acionado
+
+// HTML
+Atributo HTML
+// Especifica a função a ser chamada diretamente no elemento HTML
+Exemplos:
+https://prnt.sc/PrOgoZhPtlI2
