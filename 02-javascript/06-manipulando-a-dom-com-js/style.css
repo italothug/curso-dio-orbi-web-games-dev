@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: #4e545c;
+}
+
+body.dark-mode {
+    background-color: rgb(37, 37, 37);
+    color: #f3f3f3;
+}
+
+main {
+	height: 100vh; /* Serve para a página ficar do jeito q tá, com esse espaçamento e o footer ficar em baixo */
+	width: 100%;
+	display: flex; /* Item flexivel */
+	flex-direction: column; 
+    align-items: center; /* Serve para todos os itens ficarem alinhados no meio */
+    justify-content: center; /* Serve para todos os itens ficarem no meio da coluna */
+}
+
+footer {
+    width: 100%;
+	background-color: #4e545c;
+	padding: 10px;
+	color: #e5e8e8;
+	position: fixed; /* Deixar em uma posição fixa, sem mostrar barras de rolagens e ser tamanho bom para a tela */
+	bottom: 0;
+	text-align: center; /* Alinhar texto no centro */
+	font-weight: 400;
+    font-style: italic;
+    font-size: small;
+}
+
+footer.dark-mode {
+	background-color: #bdbdbd;
+	color: #272727;
+}
+
+button {
+    border-radius: 30px; /* Borda arredondada */
+    border: 0;
+    background-color: #797979;
+    font-size: 22px;
+    width: 150px; /* Largura */
+    height: 45px; /* Altura */
+    color: #f3f3f3; /* Cor da font */
+    transition: all 0.5s linear; /* Tempo de animação */
+}
+
+button:hover { /* Quando passar o mouse em cima, ficará com essas propriedades */
+    background-color: rgb(39, 39, 39);
+    color: #ffffff;
+}
+
+button.dark-mode { /* Quando passar o mouse em cima, ficará com essas propriedades no darkmode */
+	background-color: #dfdfdf;
+	color: #777777;
+}
+
+button.dark-mode:hover {
+	background-color: #ffffff;
+	color: #1a1a1a;
+}
