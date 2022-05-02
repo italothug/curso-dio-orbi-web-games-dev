@@ -1,0 +1,37 @@
+body {
+    text-align: center; /* Centralizar conteúdo */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadrado { /* exemplo de como fica: https://prnt.sc/etrAKYoySouB */
+    text-align: center;
+    width: 50px; /* largura */
+    background: #e0e0e0; /* cor de fundo */
+    display: inline-block; /* posição dele, vai ficar alinhado na mesma linha, não ocupar mais espaço */
+    padding: 40px; /* margem pra dentro do conteúdo */
+    font-size: 60px; /* tamanho da font */
+    margin: 5px; /* margem pra fora do conteúdo */
+    cursor: pointer; /* cursor virar mãozinha, indicando = conteúdo clicavel */
+    color: #e0e0e0; /* cor do texto */
+    border-radius: 5px;
+}
+
+.jogador, .vencedor {
+    font-size: 25px;
+    margin-top: 12px; /* margem de fora da parte de cima */
+}
+
+button {
+    margin-top: 12px;
+    width: 100px; /* largura */
+    height: 30px; /* altura */
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 30px; /* bordas arredondadas */
+    transition: all 0.5s linear;
+}
+
+button:hover {
+    background-color: rgb(95, 95, 95);
+    color: whitesmoke;
+}
