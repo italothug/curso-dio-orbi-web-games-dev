@@ -33,11 +33,53 @@ Alinhar os itens do container de acordo com a sua direção
 - ```align-items```
 Alinhar os itens de acordo com o eixo do container
 
+  _Tipos de alinhamento_
+
+  - ```center```
+  Alinhamentos dos itens no centro
+
+  - ```stretch```
+  Padrão, e os flex itens crescem igualmente
+
+  - ```flex-start```
+  Alinhamento dos itens no início
+
+  - ```flex-end```
+  Alinhamento dos itens no final
+
+  - ```baseline```
+  Alinhamento de acordo com a linha base da tipografia dos itens
+
 - ```align-content```
-Alinhar as linhas do container
+Alinhar as linhas do container em relação ao eixo vertical do container
+
+  _Precisamos que:_
+  - _O container utilize quebra de linhas_
+
+  - _A altura do container seja maior que a soma das linhas dos itens_
+
+  _Tipos de alinhamento_
+
+  - ```center```
+  Alinhamentos dos itens no centro
+
+  - ```stretch```
+  Padrão, e os flex itens crescem igualmente
+
+  - ```flex-start```
+  Alinhamento dos itens no início
+
+  - ```flex-end```
+  Alinhamento dos itens no final
+
+  - ```space-between```
+  Cria um espaçamento igual entre os elementos
+
+  - ```space-around```
+  Os espaçamentos do meio são duas vezes maiores que o inicial e final
 
 ## Flex Item
-##### _São os elementos filhos do Flex Container. E também podem se tornar Flex Container._
+_São os elementos filhos do Flex Container. E também podem se tornar Flex Container._
 
 ### **Propriedades relacionadas:**
 - ```flex-grow```
@@ -45,6 +87,16 @@ Definir o fator do crescimento
 
 - ```flex-basis```
 Definir o tamanho inicial do item antes da distribuição de espaço restante dentro do container
+
+  _Valores possíveis:_
+  - ```auto```
+  Caso o item não tenha tamanho, este será proporcional ao conteúdo do item
+
+  - ```px, %, em, ...```
+  São valores exatos previamente definidos
+
+  - ```0 (zero)```
+  Terá relação com a definição do flew-grow
 
 - ```flex-shrink```
 Define a capacidade de redução
@@ -74,5 +126,21 @@ Sentido oposto à direção do texto
 - ```column```
 Ordenação de cima para baixo, em coluna única
 
+1
+
+2
+
+3
+
+4
+
 - ```column-reverse```
 Ordenação inversa, de baixo para cima
+
+4
+
+3
+
+2
+
+1
