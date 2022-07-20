@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - align-self</title>
+  <style>
+    .flex-container {
+      max-width: 350px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      display: flex;
+    }
+
+    .align-container {
+      align-items: center;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .item {
+      background-color: brown;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .center {
+      align-self: center;
+    }
+
+    .start {
+      align-self: flex-start;
+    }
+
+    .end {
+      align-self: flex-end;
+    }
+
+    .baseline {
+      align-self: baseline;
+    }
+
+    .stretch {
+      align-self: stretch;
+    }
+
+    .auto {
+      align-self: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>row</h1>
+  <p>auto</p>
+  <section class="flex-container">
+    <div class="item auto">AAA</div>
+    <div class="item auto">123</div>
+    <div class="item auto">Lorem ipsum, dolor sit amet consectetur</div>
+    <div class="item auto">Item 4</div>
+  </section>
+
+  <p>stretch</p>
+  <section class="flex-container">
+    <div class="item center">AAA</div>
+    <div class="item start">123</div>
+    <div class="item stretch">Lorem ipsum, dolor sit amet consectetur</div>
+    <div class="item end">Item 4</div>
+  </section>
+
+  <h1>column</h1>
+  <p>auto</p>
+  <section class="flex-container column">
+    <div class="item auto">AAA</div>
+    <div class="item auto">123</div>
+    <div class="item auto">Lorem ipsum, dolor sit amet consectetur</div>
+    <div class="item auto">Item 4</div>
+  </section>
+
+  <p>variado</p>
+  <section class="flex-container column">
+    <div class="item center">AAA</div>
+    <div class="item start">123</div>
+    <div class="item stretch">Lorem ipsum, dolor sit amet consectetur</div>
+    <div class="item end">Item 4</div>
+  </section>
+</body>
+</html>
